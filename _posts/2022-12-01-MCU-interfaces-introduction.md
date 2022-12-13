@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MCU Interfaces Introduction
-author: [Richard Kuo]
+title: MCU Interfaces Introduction /微控制器介紹
+author: [Sheng Jie]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
@@ -19,7 +19,7 @@ A MCU consist of a processor core, memory and I/O interfaces
 ---
 ### Cortex-M0 MCU
 **NUC140 Functional Block Diagram**
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/NUC140_functional_block_diagram.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/NUC140_functional_block_diagram.png?raw=true)
 
 ---
 ### ESP32
@@ -31,10 +31,10 @@ A MCU consist of a processor core, memory and I/O interfaces
 
 ---
 ## GPIO (General Purpose I/O)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/GPIO_circuit_diagram.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/GPIO_circuit_diagram.png?raw=true)
 
 Each IO pad drive/sink **~25mA**, Entire Chip drive/sink **~200mA**<br>
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/GPIO_LED_circuit.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/GPIO_LED_circuit.png?raw=true)
 
 ![](https://i1.wp.com/randomnerdtutorials.com/wp-content/uploads/2018/10/LED_PWM_Example.jpg?w=700&quality=100&strip=all&ssl=1)
 
@@ -55,7 +55,7 @@ Each IO pad drive/sink **~25mA**, Entire Chip drive/sink **~200mA**<br>
 </table>
 
 **12-bit ADC** : output is a 12-bit binary code, so its value = 0 ~ 4095<br>
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/ADC_12bit_table.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/ADC_12bit_table.png?raw=true)
 
 ### Direct-Conversion ADC
 ![](https://www.maximintegrated.com/content/dam/images/design/tech-docs/634/E33Fig01.gif)
@@ -64,7 +64,7 @@ Each IO pad drive/sink **~25mA**, Entire Chip drive/sink **~200mA**<br>
 ![](https://github.com/rkuo2000/MCU-course/blob/main/images/SA_ADC_block_diagram.png?raw=true)
 
 ### Sigma-Delta ADC
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/Sigma-Delta_ADC_block_diagram.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/Sigma-Delta_ADC_block_diagram.png?raw=true)
 
 <img width="50%" height="50%" src="https://www.electronicwings.com/public/images/user_images/images/NodeMCU/NodeMCU%20Interfaces/NodeMCU%20Thermistor/NodeMCU_Thermistor_Interfacing_Diagram.png">
 ![](https://www.rfwireless-world.com/images/ESP32-Interfacing-with-Gas-Sensor.jpg)
@@ -84,7 +84,7 @@ Ref. [淺談 Delta-Sigma 之工作原理](https://picture.iczhiku.com/resource/e
 
 ---
 ## PWM (Pulse Width Modulation)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/PWM_functional_diagram.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/PWM_functional_diagram.png?raw=true)
 CMRx+1 >= CNR: PWM output high <br>
 CMRx+1 <  CNR: PWM output low <br>
 
@@ -156,8 +156,8 @@ CMRx+1 <  CNR: PWM output low <br>
 **DB9 Connector**<br>
 <table>
 <tr>
-<td><img src="https://github.com/rkuo2000/MCU-course/blob/main/images/UART-DB9-pinout.png?raw=true"></td>
-<td><img src="https://github.com/rkuo2000/MCU-course/blob/main/images/UART-DB9-signal_names.png?raw=true"></td>
+<td><img src="https://github.com/csu6792/MCU-course/blob/main/images/UART-DB9-pinout.png?raw=true"></td>
+<td><img src="https://github.com/csu6792/MCU-course/blob/main/images/UART-DB9-signal_names.png?raw=true"></td>
 </tr>
 </table>
 
@@ -170,10 +170,10 @@ CMRx+1 <  CNR: PWM output low <br>
 RS232 的Vpp電壓較高，有 6V~30V；UART 則是較低的 3.3V 或 5V<br>
 RS232 為負邏輯， UART 為正邏輯，因此兩者波形是反相的<br>
 **Baud Rate**<br>
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/UART-baudrates.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/UART-baudrates.png?raw=true)
 
 [The main differences between RS-232, RS-422 and RS-485](https://ipc2u.com/articles/knowledge-base/the-main-differences-between-rs-232-rs-422-and-rs-485/)
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/UART-RS232_RS422_RS485.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/UART-RS232_RS422_RS485.png?raw=true)
 ![](https://ipc2u.com/upload/medialibrary/341/34187d2b0bb31eeb5b3fdfdb17745526.jpg)
 
 ---
