@@ -59,6 +59,7 @@ message_line = "hello";
   Serial.begin(115200);
   LINE.setToken(LINE_TOKEN);
   LINE.notify("\n" + message_line);
+  }
 ```
 
 ---
