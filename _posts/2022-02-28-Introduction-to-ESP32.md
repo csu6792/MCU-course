@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Introduction to ESP32
-author: [Richard Kuo]
+title: Introduction to ESP32 / EPS32介紹
+author: [Sheng Jie]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
@@ -19,7 +19,7 @@ a single-core Wi-Fi and Bluetooth 5 (LE) microcontroller SoC, based on the open-
 
 ---
 ### ESP32 Interfaces and Peripherals
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/ESP32_interface_peripherals.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/ESP32_interface_peripherals.png?raw=true)
 
 ---
 ## ESP32-WROOM-32
@@ -28,11 +28,11 @@ a single-core Wi-Fi and Bluetooth 5 (LE) microcontroller SoC, based on the open-
 ![](https://lastminuteengineers.b-cdn.net/wp-content/uploads/arduino/ESP32-Hardware-Specifications-Reset-Boot-Buttons-LED-Indicators.jpg)
 
 **Features:**<br>
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/ESP32_development_board_features.png?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/ESP32_development_board_features.png?raw=true)
 
 ---
 ### NodeMCU-32S pinout
-![](https://github.com/rkuo2000/MCU-course/blob/main/images/NodeMCU-32S_pinout.jpg?raw=true)
+![](https://github.com/csu6792/MCU-course/blob/main/images/NodeMCU-32S_pinout.jpg?raw=true)
 
 ---
 ### ESP32-WROOM-32 pinout
